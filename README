@@ -1,4 +1,6 @@
-This recipe gives you a small EC2 instance with csvget installed.
+This recipe gives you a small EC2 instance with csvget installed.  It is assumed that you already have the EC2 command line tools in your PATH.
+
+Tested with Mac OS X 10.6 locally.  The remote side is tested with the Debian 5.0.2 lenny AMI.  It should "just work" with other systems too.
 
 boot.rb -- Run this locally to start up a new instance, copy init.sh to it, and run init.sh remotely.
 init.sh -- Run this as root on an existing Debian EC2 instance to install csvget.
