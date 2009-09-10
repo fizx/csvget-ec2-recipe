@@ -1,0 +1,4 @@
+This recipe gives you a small EC2 instance with csvget installed.
+
+boot.rb -- Run this locally to start up a new instance, copy init.sh to it, and run init.sh remotely.
+init.sh -- Run this as root on an existing Debian EC2 instance to install csvget.
