@@ -15,3 +15,4 @@ cd -
 gem sources -a http://gems.github.com
 gem install --no-rdoc --no-ri fizx-csvget
 ls /var/lib/gems/1.8/bin | xargs -I % ln -nfs /var/lib/gems/1.8/bin/% /usr/local/bin/
+ldconfig -v
